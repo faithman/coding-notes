@@ -1,0 +1,5 @@
+site_name: Coding Notes
+nav:
+ - Home: index.md
+
+theme: readthedocs
