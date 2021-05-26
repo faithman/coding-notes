@@ -26,7 +26,9 @@ rsync -a <dir1/> <dir2>
 ```
 
 !!! Note
-	The "/" after the first directory is necessery.
+
+        The "/" after the first directory is necessery.
+
 
 ### Dry run before starting rsync commands
 

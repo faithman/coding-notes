@@ -27,5 +27,6 @@ mkdocs gh-deploy --clean
 ```
 
 !!! Note
-    You need to preset the `pages` in the `Settings` to build github page site from `gh-pages` branch.
+
+        You need to preset the `pages` in the `Settings` to build github page site from `gh-pages` branch.
 
