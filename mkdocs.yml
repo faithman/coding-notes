@@ -1,5 +1,8 @@
 site_name: Coding Notes
 nav:
  - Home: index.md
-
+ - Tool: 
+    - MkDocs: mkdocs.md
+    - Github: git_and_github.md
+    - Data transfer: Data_transfer.md
 theme: readthedocs

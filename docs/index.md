@@ -1,6 +1,6 @@
 # Welcome to my coding notes
 
-I swrite down the skills for everything about coding here, as well as some ideas flashed in my mind. 
+I would like to take notes for the skills about coding here, as well as some ideas flashed in my mind. 
 
 # About me
 
