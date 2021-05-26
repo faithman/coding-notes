@@ -138,8 +138,9 @@ scp -r wangye@192.168.38.73:/mnt/ntfs1/tanpeng26034/X101SC19030851_panda_Data_Re
 <h3 id="synchronization-between-two-local-folder">Synchronization between two local folder</h3>
 <pre><code>rsync -a &lt;dir1/&gt; &lt;dir2&gt;
 </code></pre>
-<p>!!! Note
-        The "/" after the first directory is necessery.</p>
+<p>!!! Note</p>
+<pre><code>    The "/" after the first directory is necessery.
+</code></pre>
 <h3 id="dry-run-before-starting-rsync-commands">Dry run before starting rsync commands</h3>
 <p>The <code>-n</code> or <code>--dry-run</code> options give you the chance to double-check your argument and commands before you run it formally.</p>
 <pre><code>rsync -anv &lt;dir1/&gt; &lt;dir2&gt;
