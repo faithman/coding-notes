@@ -111,6 +111,20 @@
             <div class="section">
               
                 <h1 id="data_transfer">Data_transfer</h1>
+<div class="toc">
+<ul>
+<li><a href="#data_transfer">Data_transfer</a><ul>
+<li><a href="#scp">SCP</a></li>
+<li><a href="#rsync">rsync</a><ul>
+<li><a href="#synchronization-between-two-local-folder">Synchronization between two local folder</a></li>
+<li><a href="#dry-run-before-starting-rsync-commands">Dry run before starting rsync commands</a></li>
+<li><a href="#sync-with-remote-server">Sync with remote server</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
 <p>This note is for how to transfer data from local to remote, or between two servers.</p>
 <h2 id="scp">SCP</h2>
 <p>SCP is useful when transfer data between two server using ssh protocol.</p>
@@ -124,7 +138,7 @@ scp -r wangye@192.168.38.73:/mnt/ntfs1/tanpeng26034/X101SC19030851_panda_Data_Re
 <h3 id="synchronization-between-two-local-folder">Synchronization between two local folder</h3>
 <pre><code>rsync -a &lt;dir1/&gt; &lt;dir2&gt;
 </code></pre>
-<p>!!!NOTE
+<p>!!! Note
     The "/" after the first directory is necessery.</p>
 <h3 id="dry-run-before-starting-rsync-commands">Dry run before starting rsync commands</h3>
 <p>The <code>-n</code> or <code>--dry-run</code> options give you the chance to double-check your argument and commands before you run it formally.</p>
